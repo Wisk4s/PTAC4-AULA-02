@@ -14,7 +14,6 @@ export default function Login() {
     push('/pages/dashboard');
   }
 
-
   return (
     <div>
       <h1>Login</h1>
@@ -29,7 +28,7 @@ export default function Login() {
           type='password'
           onChange={(e) => { setPassword(e.target.value) }}>
         </input>
-        <button>Entrar</button>
+        <button>Entrar</button><br/>
       </form>
     </div>
   )
